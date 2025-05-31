@@ -15,15 +15,9 @@ The goal was to extend a static batch graph processing model (Phase 1) into a li
 
 ## 📦 Architecture
 
-```
-[ Kafka Producer (Python) ] 
-        ↓ 
-[ Apache Kafka Broker ] ← Zookeeper
-        ↓ 
-[ Kafka Connect + Neo4j Sink Connector ]
-        ↓ 
-[ Neo4j Graph Database (Helm + StatefulSet) ]
-```
+<p align="center">
+  <img src="Image/archtiecture.png" alt="Log Processing Architecture"/>
+</p>
 
 ### Components
 
